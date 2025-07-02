@@ -20,7 +20,7 @@ public class RecursiveSelectionSort<T extends Comparable<T>> extends
 			return;
 		}
 		int menor = leftIndex;
-		for(int j = leftIndex +1; j < rightIndex +1; j ++){
+		for(int j = leftIndex +1; j <= rightIndex; j ++){
 			if(array[j].compareTo(array[menor]) < 0){
 				menor = j;
 			}
