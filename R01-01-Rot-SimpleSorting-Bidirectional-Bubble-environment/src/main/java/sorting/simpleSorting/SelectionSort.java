@@ -25,7 +25,8 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 					menor = j;
 				}
 			}
-			Util.swap(array,i,menor);
+			 if (menor != i) {
+                			Util.swap(array, i, menor);
 		}
 
 	}
