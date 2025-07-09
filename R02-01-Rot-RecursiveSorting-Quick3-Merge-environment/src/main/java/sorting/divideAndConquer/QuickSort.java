@@ -32,10 +32,9 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
     @Override
     public void sort(T[] array, int leftIndex, int rightIndex) {
-        if(leftIndex >= rightIndex || rightIndex >= array.length){
-			return;
-		}
-        if (leftIndex < rightIndex) {
+        if (array != null && array.length > 0 &&
+        leftIndex >= 0 && rightIndex < array.length &&
+        leftIndex < rightIndex){
             int indexPivot = partition(array, leftIndex, rightIndex);
             sort(array, leftIndex, indexPivot - 1);
             sort(array, indexPivot + 1, rightIndex);
