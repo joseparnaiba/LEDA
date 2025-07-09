@@ -1,5 +1,7 @@
 package sorting.test;
 
+import static org.junit.Assert.assertEquals;
+
 import java.util.Arrays;
 
 import org.junit.Assert;
@@ -30,7 +32,9 @@ public class StudentSortingTest {
 		populaVetorRepetido(new Integer[] { 4, 9, 3, 4, 0, 5, 1, 4 });
 		populaVetorIgual(new Integer[] { 6, 6, 6, 6, 6, 6 });
 
+
 		getImplementation();
+
 	}
 
 	// // MÉTODOS AUXILIARES DA INICIALIZAÇÃO
@@ -41,8 +45,9 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new InsertionSort<>();
 		
+		this.implementation = new InsertionSort<>();
+		//Assert.fail("Implementation not provided");
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {

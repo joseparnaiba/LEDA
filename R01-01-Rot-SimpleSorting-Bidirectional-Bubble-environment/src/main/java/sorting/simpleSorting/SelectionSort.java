@@ -17,7 +17,7 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			return;
 		}
 
-		for(int i = leftIndex; i < rightIndex ; i++){
+		for(int i = leftIndex; i < array.length; i++){
 			int menor = i;
 
 			for(int j = i+1; j <= rightIndex; j++){
@@ -25,8 +25,7 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 					menor = j;
 				}
 			}
-			 if (menor != i) {
-                			Util.swap(array, i, menor);
+			Util.swap(array,i,menor);
 		}
 
 	}
