@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-09-07T12:10:34.034-0300</date>
+  <logger>JOSE HERLISON BARROSO PARNAIBA</logger>
+  <level>FINE</level>
+  <message>File 123210090-JOSE HERLISON BARROSO PARNAIBA.zip was received. It was sent by JOSE HERLISON BARROSO PARNAIBA from IP 192.168.1.14 at 07-09-2025 12*10*33</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-09-07T12:16:18.253-0300</date>
+  <logger>JOSE HERLISON BARROSO PARNAIBA</logger>
+  <level>FINE</level>
+  <message>File 123210090-JOSE HERLISON BARROSO PARNAIBA.zip was received. It was sent by JOSE HERLISON BARROSO PARNAIBA from IP 192.168.1.14 at 07-09-2025 12*16*18</message>
+</record>
